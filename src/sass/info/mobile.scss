@@ -1,0 +1,275 @@
+& {
+  .order-first {
+    -ms-flex-order: -1;
+    order: -1;
+}
+  .graf-img {
+    display: inline-block;
+    padding-left: 70px;
+    padding-bottom: 35px;
+    position: relative;
+    transform: scale(.35) translateX(-97%);
+    margin: -147px 0;
+  }
+  section {
+    overflow: hidden;
+  }
+  .mob-btn {
+    display: block;
+    float: right;
+    border: 2px solid #fff;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+     height: 30px;
+    width: 40px;
+    margin-top: 8px;
+
+    &:before {
+      content: "";
+      height: 2px;
+      width: 100%;
+      background: #fff;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+  }
+  nav {
+    background: #0e2751;
+  }
+  nav .nav-menu {
+    display: none;
+    text-align: left;
+    clear: both;
+    padding-top: 30px;
+    li {
+      display: block;
+      margin-bottom: 15px;
+    }
+  }
+  .head {
+    padding-top: 150px;
+  }
+  .head-date {
+    font-size: 15px;
+  }
+  .head-hgroup {
+    text-align: center;
+    h3 {
+      font-size: 15px;
+    }
+    h1 {
+      font-family: "Formular - Black";
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0;
+      margin: 0 0 20px 0;
+      span {
+        font-size: 50px;
+        letter-spacing: 0;
+      }
+    }
+    h4 {
+      font-size: 14px;
+    }
+  }
+  .form-reg h3,
+  .form-reg button {
+    font-size: 14px;
+  }
+  .form-item p {
+    font-size: 10px;
+  }
+  .form-item h5 {
+    font-size: 12px;
+  }
+  .speaker {
+    text-align: center;
+  }
+  .speaker-item ul {
+    text-align: left;
+  }
+  .speaker-img {
+    width: 100%;
+  }
+  .speaker-img .speaker-name {
+    left: 44%;
+  }
+  .info, .photo {
+    background-size: cover;
+  }
+  .info-title, .photo-title, .whom-title, .why-title, .results-title, .main_result-title, .conference-title,
+  .participate-title, .gift-title, .reviews-title, .partner-title, .where-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+    br {
+      display: none;
+    }
+  }
+  .info-item {
+    margin-bottom: 10px;
+  }
+  .photo-item {
+    margin-bottom: 25px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .photo-item .content h4 {
+    font-size: 12px;
+    margin-bottom: 0;
+  } 
+  .photo-item .content p span {
+    font-size: 12px;
+  }
+  .photo-info {
+    padding-left: 0;
+    padding-top: 60px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    &:before {
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+    }
+  }
+  .video-item iframe, .video-item img {
+    min-height: 115px;
+  }
+  .video-btn {
+    font-size: 14px;
+  }
+  .whom {
+    background-size: cover;
+    text-align: center;
+  }
+  .whom-item {
+    text-align: center;
+    h4 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .order-btn {
+    font-size: 15px;
+  }
+  .why {
+    text-align: center;
+  }
+  .why-item {
+    br {
+      display: none;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .why-img {
+    img {
+      width: 100%;
+    }
+  }
+  .results-carousel .owl-nav {
+    top: 0;
+  }
+  .results {
+    text-align: center;
+  }
+  .results-item ul {
+    text-align: left;
+  }
+  .review-info {
+    background: none;
+    position: static;
+    color: #000;
+    font-size: 12px;
+    padding: 5px;
+    min-height: auto;
+  }
+  .review-img {
+    img {
+      width: 100%;
+    }
+  }
+  .review-item  {
+    h5 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+  .review-video iframe, .review-video img {
+    min-height: 115px;
+  }
+  .review-video:before {
+    display: none;
+  }
+  .main_result-item {
+    margin-bottom: 20px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .conference-info {
+    font-size: 18px;
+  }
+  .conference-img {
+    img {
+      max-width: 100%;
+    }
+  }
+  .participate {
+    background-size: cover;
+  }
+  .participate-box {
+    margin-bottom: 20px;
+  }
+  .participate-box:nth-child(2) {
+    margin: 0 0 20px;
+  }
+  .gift-info {
+    font-size: 18px;
+  }
+  .galery, .guarantee, .footer {
+    background-size: cover;
+    min-height: 320px;
+  }
+  .footer {
+    background-position: center top;
+    padding-top: 100px;
+  }
+  .reviews img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .guarantee-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .guarantee-box .item {
+    padding: 10px 5px;
+  }
+  .partner-box {
+    margin-bottom: 20px;
+  }
+  .footer h2 {
+    font-size: 24px;
+    br {
+      display: none;
+    }
+  }
+  .footer .nav-menu li .phone, nav .nav-menu li .phone {
+    padding-left: 0;
+  }
+}

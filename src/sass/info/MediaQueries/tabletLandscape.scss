@@ -1,0 +1,15 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+   .participate-box {
+        max-width: 290px;
+      }
+  .graf-img {
+        width: 900px;
+        transform: scale(1) translateX(0%);
+      }
+  .footer {
+        padding-top: 0px;
+      }
+}
