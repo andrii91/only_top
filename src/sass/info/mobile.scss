@@ -5,13 +5,13 @@
 }
   .graf-img {
     display: inline-block;
-    padding-left: 70px;
+    padding-left: 70px;  
     padding-bottom: 35px;
     position: relative;
     transform: scale(.35) translateX(-97%);
     margin: -147px 0;
   }
-  section {
+  section { 
     overflow: hidden;
   }
   .mob-btn {
@@ -180,7 +180,7 @@
     }
   }
   .results-carousel .owl-nav {
-    top: 0;
+    top: 100%;
   }
   .results {
     text-align: center;
@@ -210,7 +210,7 @@
     }
   }
   .review-video iframe, .review-video img {
-    min-height: 115px;
+    min-height: 315px;
   }
   .review-video:before {
     display: none;
@@ -271,5 +271,26 @@
   }
   .footer .nav-menu li .phone, nav .nav-menu li .phone {
     padding-left: 0;
+  }
+  #popup {
+    width: 230px;
+  }
+  .speaker-img {
+    display: none;
+  }
+  .program-box .top {
+    margin-bottom: -2px;
+  }
+  .program-item {
+    br {
+      display: none;
+    }
+  }
+  .partner-box .partner-img {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .partner-box h3 {
+    margin-bottom: 10px;
   }
 }

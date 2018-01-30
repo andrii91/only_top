@@ -17,6 +17,15 @@ body {
   background-size: cover;
   min-height: 100vh;
   padding-bottom: 100px;
+  &.success {
+        display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 nav {
@@ -54,6 +63,7 @@ nav {
       margin: 0 10px;
       cursor: pointer;
       transition: 0.2s;
+      
       &:hover {
         color: #ffdd00;
       }
@@ -156,6 +166,14 @@ background-color: #ffffff;
 
 .head-hgroup {
   margin-top: 20px;
+  h2 {
+    color: #ffffff;
+    font-family: Formular;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align-last: center;
+  }
   h3 {
     color: #ffffff;
     font-family: Formular;
@@ -670,6 +688,7 @@ background-color: #ffffff;
       font-family: Formular;
       font-size: 18px;
       font-weight: 400;
+      line-height:1.2;
       padding-left: 28px;
       position: relative;
       &:before {
@@ -986,7 +1005,7 @@ background-color: #ffffff;
   font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
   span {
     color: #ffdd00;
   }
@@ -1004,13 +1023,13 @@ background-color: #ffffff;
   padding: 40px 16px 31px;
   &:first-child {
     ul {
-      margin-bottom: 126px;
+      margin-bottom: 200px;
     }
   }
   &:nth-child(2) {
     margin: 0 15px;
     ul {
-      margin-bottom: 83px;
+      margin-bottom: 101px;
     }
   }
   &:nth-child(3) {
@@ -1221,6 +1240,7 @@ text-transform: uppercase;
 
 .reviews {
   padding: 70px 0;
+  text-align: center;
   img {
     margin-bottom: 44px;
   }
@@ -1375,6 +1395,9 @@ font-family: Formular;
 .footer {
   background: url('../images/footer.png') no-repeat center top;
   margin-top: -250px;
+  &.success {
+    text-align: center;
+  }
   .logo {
     float: left;
   }
@@ -1395,6 +1418,13 @@ font-family: Formular;
       margin: 0 10px;
       cursor: pointer;
       transition: 0.2s;
+      a {
+        display: block;
+        color: #fff;
+         &:hover {
+        color: #ffdd00;
+      }
+      }
       &:hover {
         color: #ffdd00;
       }
@@ -1445,4 +1475,143 @@ font-family: Formular;
 
 .mob-btn {
   display: none;
+}
+
+.photo-btn {
+  color: #ffffff;
+  font-family: Formular;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 3px solid #fed62f;
+  transition: 0.2s;
+  background-color: transparent;
+  line-height: 1;
+  padding: 17px 36px 15px;
+  cursor: pointer;
+  &:hover {
+    background: #fed62f;
+  }
+}
+
+.program {
+  text-align: center;
+  .program-title {
+    width: 100%;
+    margin-bottom: 70px;
+    display: inline-block;
+  }
+  .container {
+    max-width: 1170px;
+  }
+}
+
+#popup {
+  display: none;
+  width: 320px;
+  overflow: hidden;
+  h5 {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .form-reg {
+    margin-top: 0;
+    min-height: inherit;
+    border-radius: 0px;
+    background-color: transparent;
+    position: relative;
+    box-shadow: 0 0 0 #0e2751;
+    padding:  20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.program-box {
+  text-align: left;
+  position: relative;
+  margin-bottom: 43px;
+  .top {
+    color: #001f49;
+    font-family: "Formular - Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 28px 43px;
+    display: inline-block;
+    border: 1px solid #e6e6fa;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .program-item {
+    padding: 40px 48px;
+     border: 1px solid #e6e6fa;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    h4 {
+      color: #000000;
+      font-family: Formular;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .name {
+      color: #000000;
+      font-family: Formular;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    p {
+      color: #000000;
+      font-family: Formular;
+      font-size: 18px;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      li {
+        color: #000000;
+        font-family: Formular;
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 40px;
+        position: relative;
+        line-height: 1;
+        margin-bottom: 15px;
+        &:before {
+          content: "";
+          background: url(../images/gewrtg.png) no-repeat center;
+          width: 18px;
+          height: 16px;
+          position: absolute;
+          top: 0px;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+#renouncement, #confidentiality {
+  max-width: 690px;
+  overflow-y: auto;
+  display: none;
+  h3 {
+    text-align: center;
+  }
 }
